@@ -1,6 +1,8 @@
 pyfiglet
 colorama
 keyboard
+pyfiglet
+
 # Testing dependencies
 pytest
 pytest-mock
