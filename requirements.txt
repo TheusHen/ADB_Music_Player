@@ -1,0 +1,6 @@
+pyfiglet
+colorama
+keyboard
+# Testing dependencies
+pytest
+pytest-mock
