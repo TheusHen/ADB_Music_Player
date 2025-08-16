@@ -237,7 +237,7 @@ def get_current_track_info(device_id: str) -> dict:
         dumpsys_audio = execute_adb_command(device_id, ["shell", "dumpsys", "audio"])
         
         # This is very basic and might not work reliably
-        # In a real implementation, you might want to use a dedicated music player app's API
+        # In a real implementation, you(User) might want to use a dedicated music player app's API
         if "state=started" in dumpsys_audio.lower():
             result["playing"] = True
         else:
